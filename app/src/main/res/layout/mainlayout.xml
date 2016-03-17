@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gyerby.umsl.edu.stopwatch.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+       android:id="@+id/MainTimeFragmentContainer"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_alignBottom="@id/MainTimeFragmentContainer"
+        android:id="@+id/LapTimesFragmentContainer"
+        android:layout_gravity="bottom"></FrameLayout>
+
+</LinearLayout>

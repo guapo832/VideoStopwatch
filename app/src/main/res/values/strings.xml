@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainTime">00:00:000</string>
+    <string name="lapTime">00:00:000</string>
+    <string name="startstopbutton_start">Start</string>
+    <string name="startstopbutton_stop">Stop</string>
+    <string name="lapresetbutton_lap">Lap</string>
+    <string name="lapresetbutton_reset">Reset</string>
+    <string name="title_activity_test">test</string>
+</resources>
